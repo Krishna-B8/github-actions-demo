@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: app
-        image: <your-dockerhub-username>/github-actions-demo:latest
+        image: krishna489/github-actions-demo:latest
         ports:
         - containerPort: 5000
