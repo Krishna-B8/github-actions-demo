@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: github-actions-demo
+spec:
+  selector:
+    app: github-actions-demo
+  type: NodePort
+  ports:
+  - port: 5000
+    targetPort: 5000
